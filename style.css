@@ -41,6 +41,11 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	
+}
+
+.produtos img {
+	width: 60%;
 }
 
 .produtos li {
@@ -48,7 +53,7 @@ nav a:hover {
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	margin: 0 1.5%;
+	margin: 1.5% 1.5% 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
@@ -86,6 +91,10 @@ footer {
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
+}
+
+. footer img {
+	width: 20%;
 }
 
 .copyright {
@@ -195,9 +204,76 @@ td, th {
 	background: linear-gradient(#FEFEFE, #888888);
 }
 
-.fot-imagens {
-	width: 940px;
-	margin: 0 auto;
+.foto-imagens {
+	display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+	margin-bottom: 50px;
+    position: relative;
+}
+
+.foto-imagens li {
+	list-style: nome;
+	position: absolute;
+}
+
+.foto-imagens img{
+	margin: auto;
+    height: 50%;
+    width: 50%;
+    vertical-align: top;
+}
+
+.foto-imagens input {
+	display: none;
+}
+
+.foto-imagens label {
+    background-color: #000;
+    bottom: 10px;
+	cursor: pointer;    
+	display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.foto-imagens li:nth-child(1) label {
+    left: 10px;
+}
+
+.foto-imagens li:nth-child(2) label {
+    left: 40px;
+}
+
+.foto-imagens li:nth-child(3) label{
+	left: 70px;
+}
+
+.foto-imagens li:nth-child(4) label {
+    left: 100px;
+}
+
+.foto-imagens li:nth-child(5) label {
+    left: 130px;
+}
+
+.foto-imagens li:nth-child(6) label{
+	left: 160px;
+}
+
+.foto-imagens img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.foto-imagens li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }
 
 .foto p {
@@ -212,7 +288,7 @@ td, th {
 
 .conteudo-beneficios {
 	width: 700px;
-	margin: 0 auto;
+	margin: auto auto;
 }
 
 .lista-beneficios {

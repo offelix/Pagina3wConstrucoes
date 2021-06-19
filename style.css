@@ -215,11 +215,11 @@ td, th {
 }
 
 .foto-imagens li {
-	list-style: nome;
+	list-style: none;
 	position: absolute;
 }
 
-.foto-imagens img{
+.foto-imagens img {
 	margin: auto;
     height: 50%;
     width: 50%;
@@ -231,7 +231,7 @@ td, th {
 }
 
 .foto-imagens label {
-    background-color: #000;
+    background-color: #fff;
     bottom: 10px;
 	cursor: pointer;    
 	display: block;

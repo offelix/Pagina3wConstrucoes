@@ -1,10 +1,15 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	width: 940px;
+	margin: auto;
+  	width: 100%;
+  	border: 3px solid;
 }
 
 header {
+	width: 100%;
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding: 20px 0 ;
 }
 
 .caixa {
@@ -16,7 +21,7 @@ header {
 nav {
 	position: absolute;
 	top: 260px;
-	right: 0;
+	right: 50px;
 }
 
 nav li {
@@ -93,7 +98,7 @@ footer {
 	padding: 40px 0;
 }
 
-. footer img {
+.footer img {
 	width: 20%;
 }
 
@@ -101,64 +106,6 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
-}
-
-form {
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.checkbox {
-	margin: 20px 0;
-}
-
-.enviar {
-	width:40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background: darkorange;
-	transform: scale(1.2);
-}
-
-table {
-	margin: 20px 0 40px;
-}
-
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-
-td, th {
-	border: 1px solid #000000;
-	padding: 8px 15px;
 }
 
 
@@ -199,14 +146,25 @@ td, th {
 	margin: 0 20px 20px 0;
 }
 
+.irmaos {
+	margin-left: 33%;
+	height: 500px;
+    width: 300px;
+    margin: 5px #333;
+	margin-bottom: 30px;
+
+}
+
 .foto {
+	
 	padding: 3em 0;
 	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .foto-imagens {
+
 	display: block;
-    height: 293px;
+    height: 300px;
     width: 600px;
     margin: auto;
     margin-top: 20px;
@@ -214,7 +172,14 @@ td, th {
     position: relative;
 }
 
+.foto-imagens ul {
+
+	list-style: none;
+	position: absolute;
+}
+
 .foto-imagens li {
+	text-align: center;
 	list-style: none;
 	position: absolute;
 }
@@ -227,10 +192,12 @@ td, th {
 }
 
 .foto-imagens input {
+
 	display: none;
 }
 
 .foto-imagens label {
+
     background-color: #fff;
     bottom: 10px;
 	cursor: pointer;    
@@ -319,27 +286,4 @@ td, th {
 
 .imagem-beneficios:hover {
 	opacity: 0.3;
-}
-
-.video {
-	width: 560px;
-	margin: 2em auto;
-}
-
-@media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-		width: auto;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-
-	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
 }
